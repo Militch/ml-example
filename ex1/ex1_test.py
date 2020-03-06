@@ -31,6 +31,7 @@ def gradient_descent(theta: np.ndarray, x: np.ndarray, y: np.ndarray, alpha, ite
     return theta, cost
 
 
+
 def data1():
     # 导入数据（第一列：城市人口数量，第二列：该城市小吃店利润）
     data = pd.read_csv('./ex1data1.txt', header=None, names=['x', 'y'])
@@ -124,8 +125,8 @@ def data2():
 
 
 def main():
-    # data1()
-    data2()
+    data1()
+    # data2()
     pass
 
 
